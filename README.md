@@ -2,6 +2,8 @@
 
 A Progressive Web Application designed to help chess players improve their tactical skills through interactive chess puzzles. This app provides an engaging way to practice chess tactics, learn common patterns, and sharpen your chess vision.
 
+> **Note**: This is a new project repository. The features and structure described below represent the planned implementation.
+
 ## 📋 Features
 
 - **Interactive Chess Puzzles**: Solve chess puzzles with various difficulty levels
@@ -32,7 +34,7 @@ A Progressive Web Application designed to help chess players improve their tacti
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - Node.js and npm (for development)
 
-### Setup Instructions
+### Setup Instructions (Coming Soon)
 
 1. **Clone the repository**
    ```bash
@@ -40,17 +42,17 @@ A Progressive Web Application designed to help chess players improve their tacti
    cd Chess-Puzzle-Progressive-Web-App--PWA-
    ```
 
-2. **Install dependencies**
+2. **Install dependencies** (when package.json is available)
    ```bash
    npm install
    ```
 
-3. **Run the development server**
+3. **Run the development server** (when package.json is configured)
    ```bash
    npm start
    ```
 
-4. **Build for production**
+4. **Build for production** (when package.json is configured)
    ```bash
    npm run build
    ```
@@ -96,7 +98,7 @@ A Progressive Web Application designed to help chess players improve their tacti
 - Runs in standalone mode like a native app
 - Appears in app launchers and home screens
 
-## 📁 Project Structure
+## 📁 Project Structure (Planned)
 
 ```
 Chess-Puzzle-Progressive-Web-App--PWA-/
@@ -112,6 +114,7 @@ Chess-Puzzle-Progressive-Web-App--PWA-/
 │   ├── icons/              # App icons for different sizes
 │   └── pieces/             # Chess piece images
 ├── manifest.json           # PWA manifest file
+├── package.json            # Project dependencies
 └── README.md               # This file
 ```
 
@@ -164,7 +167,7 @@ If you find a bug, please open an issue with:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project license will be determined and documented in a LICENSE file.
 
 ## 👏 Acknowledgments
 
